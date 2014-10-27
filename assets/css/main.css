@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    -webkit-appearance: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+    width: 100%;
+    overflow: scroll;
+}
+
+body {
+    display: block;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+
