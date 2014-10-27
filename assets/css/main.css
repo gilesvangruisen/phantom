@@ -27,12 +27,13 @@ body {
 div.container {
     display: block;
     width: 560px;
-    margin: 30px auto;
+    margin: 50px auto 20px;
 }
 
 .main-header {
     display: block;
     margin: 0 auto 30px;
+    text-align: center;
 }
 
 .main-header .blog-title {
@@ -41,6 +42,7 @@ div.container {
     line-height: 24px;
     font-size: 24px;
     font-weight: 600;
+    color: #242424;
 }
 
 .main-header .blog-description {
