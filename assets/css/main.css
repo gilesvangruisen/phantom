@@ -43,6 +43,7 @@ div.container {
     font-size: 24px;
     font-weight: 600;
     color: #242424;
+    margin: 0 auto 14px;
 }
 
 .main-header .blog-title a {
@@ -51,13 +52,11 @@ div.container {
 
 .main-header .blog-description {
     display: block;
-    height: 18px;
-    line-height: 18px;
-    font-size: 18px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
     color: #999;
 }
-
-
 
 .main-footer {
     display: block;
