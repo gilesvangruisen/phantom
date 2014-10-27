@@ -20,5 +20,33 @@ body {
     font-size: 12px;
     line-height: 20px;
     width: 100%;
+    background: #fff;
+    color: #242424;
 }
 
+div.container {
+    display: block;
+    width: 560px;
+    margin: 30px auto;
+}
+
+.main-header {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.main-header .blog-title {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main-header .blog-description {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #999;
+}

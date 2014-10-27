@@ -22,22 +22,24 @@
 </head>
 <body class="{{body_class}}">
 
-    <header class="main-header">
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-        <p class="blog-description">{{@blog.description}}</p>
-    </header>
+    <div class="container">
+        <header class="main-header">
+            <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <p class="blog-description">{{@blog.description}}</p>
+        </header>
 
-    {{! Everything else gets inserted here }}
-    {{{body}}}
+        {{! Everything else gets inserted here }}
+        {{{body}}}
 
-    <footer class="main-footer">
-        <section class="footer-links">
-            <a href="{{@blog.url}}">Articles</a>
-            <a href="http://twitter.com/gilesvangruisen/">@gilesvangruisen</a>
-            <a href="{{@blog.url}}/rss/">RSS</a>
-        </section>
-        <section class="footer-copyright">{{date format="YYYY"}} {{@blog.title}}</section>
-    </footer>
+        <footer class="main-footer">
+            <section class="footer-links">
+                <a href="{{@blog.url}}">Articles</a>
+                <a href="http://twitter.com/gilesvangruisen/">@gilesvangruisen</a>
+                <a href="{{@blog.url}}/rss/">RSS</a>
+            </section>
+            <section class="footer-copyright">{{date format="YYYY"}} {{@blog.title}}</section>
+        </footer>
+    </div>
 
     {{ghost_foot}}
 
