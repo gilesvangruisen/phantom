@@ -45,10 +45,40 @@ div.container {
     color: #242424;
 }
 
+.main-header .blog-title a {
+    color: #242424;
+}
+
 .main-header .blog-description {
     display: block;
     height: 18px;
     line-height: 18px;
     font-size: 18px;
     color: #999;
+}
+
+
+
+.main-footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-footer section.footer-links {
+    display: block;
+    height: 16px;
+    margin: 0 auto 6px;
+}
+
+.main-footer section.footer-links {
+    color: #3878d9;
+    border-bottom: 1px solid #3828d9;
+    padding-bottom: 1px;
+}
+
+.main-footer section.footer-copyright {
+    display: block;
+    height: 16px;
+    margin: 0 auto 6px;
 }
