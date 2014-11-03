@@ -69,16 +69,25 @@ h2.section-header {
 }
 
 .articles-list {
+    display: block;
     margin: 20px 0;
     border-bottom: 1px solid #ddd;
 }
 
 .articles-list .post {
+    display: block;
     border-top: 1px solid #ddd;
     padding: 12px 0 10px;
 }
 
-.articles-list .post .post-date {
+.single-post {
+    display: block;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-width: 1px 0 1px 0;
+}
+
+.post .post-date {
     display: block;
     padding-bottom: 10px;
     font-size: 14px;
@@ -88,14 +97,14 @@ h2.section-header {
     color: rgb(145, 145, 145);
 }
 
-.articles-list .post .post-title {
+.post .post-title {
     font-size: 21px;
     height: 23px;
     padding-bottom: 2px;
     font-family: "le-monde-courrier-std-2";
 }
 
-.articles-list .post .post-title a {
+.post .post-title a {
     color: rgb(36, 36, 36);
 }
 
@@ -125,4 +134,5 @@ h2.section-header {
     display: block;
     height: 16px;
     margin: 0 auto 6px;
+    color: rgb(145, 145, 145);
 }
