@@ -55,6 +55,7 @@ div.container {
     height: 16px;
     line-height: 16px;
     font-size: 16px;
+    font-weight: normal;
     color: #999;
 }
 
