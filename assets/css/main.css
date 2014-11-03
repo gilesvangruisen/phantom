@@ -43,12 +43,12 @@ div.container {
     font-size: 28px;
     font-family: "le-monde-courrier-std-2";
     font-weight: 700;
-    color: #242424;
+    color: rgb(36, 36, 36);
     margin: 0 auto 14px;
 }
 
 .main-header .blog-title a {
-    color: #242424;
+    color: rgb(145, 145, 145);
 }
 
 .main-header .blog-description {
@@ -64,7 +64,7 @@ div.container {
 h2.section-header {
     font-family: "le-monde-courrier-std-2";
     font-weight: 400;
-    color: #aeaeae;
+    color: rgb(145, 145, 145);
     font-size: 16px;
     height: 22px;
     padding: 0 0 6px;
@@ -92,7 +92,7 @@ h2.section-header {
 
 .articles-list .post .post-title {
     font-size: 21px;
-    height: 21px;
+    height: 23px;
     padding-bottom: 2px;
     font-family: "le-monde-courrier-std-2";
 }
