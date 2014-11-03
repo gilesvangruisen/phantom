@@ -155,5 +155,6 @@ h2.section-header {
     display: block;
     height: 16px;
     margin: 0 auto 6px;
-    color: rgb(145, 145, 145);
+    font-weight: 300;
+    color: rgb(107, 107, 107);
 }
