@@ -15,7 +15,7 @@ html {
 
 body {
     display: block;
-    font-family: "bree", "Helvetica", sans-serif;
+    font-family: "Open Sans", "Helvetica", sans-serif;
     font-size: 12px;
     line-height: 20px;
     background: #fff;
@@ -54,13 +54,12 @@ div.container {
     line-height: 14px;
     font-size: 14px;
     font-weight: 300;
-    color: rgb(145, 145, 145);
+    color: rgb(107, 107, 107);
 }
 
 h2.section-header {
-    font-family: "bree-serif";
     font-weight: 400;
-    color: rgb(145, 145, 145);
+    color: rgb(107, 107, 107);
     font-size: 16px;
     height: 22px;
     padding: 0 0 6px;
@@ -75,7 +74,7 @@ h2.section-header {
 .articles-list .post {
     display: block;
     border-top: 1px solid #ddd;
-    padding: 12px 0 10px;
+    padding: 14px 0 12px;
 }
 
 .single-post {
@@ -93,13 +92,12 @@ h2.section-header {
     line-height: 14px;
     height: 24px;
     font-weight: 300;
-    color: rgb(145, 145, 145);
-    /*font-family: "bree";*/
+    color: rgb(107, 107, 107);
 }
 
 .single-post .post-date {
     height: 28px;
-    padding-bottom: 14px;
+    padding-bottom: 12px;
 }
 
 .post .post-title {
