@@ -75,10 +75,26 @@ h2.section-header {
     border-bottom: 1px solid #ddd;
 }
 
-.articles-list article.post {
+.articles-list .post {
     border-top: 1px solid #ddd;
-    padding: 20px 0;
+    padding: 12px 0 10px;
 }
+
+.articles-list .post .post-date {
+    padding-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(145, 145, 145);
+}
+
+.articles-list .post .post-title {
+    font-size: 21px;
+    height: 21px;
+    padding-bottom: 2px;
+    font-family: "le-monde-courrier-std-2";
+    color: rgb(36, 36, 36);
+}
+
 
 .main-footer {
     display: block;
