@@ -72,9 +72,12 @@ div.container {
 
 .main-footer section.footer-links a {
     color: #3878d9;
-    border-bottom: 1px solid #3828d9;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     margin: 0 4px;
+}
+.main-footer section.footer-links a:hover {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #3828d9;
 }
 
 .main-footer section.footer-copyright {
