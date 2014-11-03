@@ -61,6 +61,16 @@ div.container {
     color: #999;
 }
 
+.articles-list {
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.articles-list article.post {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+
 .main-footer {
     display: block;
     margin: 0 auto;
