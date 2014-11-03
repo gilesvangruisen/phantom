@@ -52,9 +52,9 @@ div.container {
 
 .main-header .blog-description {
     display: block;
-    height: 16px;
-    line-height: 16px;
-    font-size: 16px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
     font-weight: 400;
     color: rgb(145, 145, 145);
 }
