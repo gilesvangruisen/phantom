@@ -58,7 +58,16 @@ div.container {
     font-size: 16px;
     font-family: "le-monde-courrier-std-2";
     font-weight: 400;
-    color: #999;
+    color: #aeaeae;
+}
+
+h2.section-header {
+    font-family: "le-monde-courrier-std-2";
+    font-weight: 400;
+    color: #aeaeae;
+    font-size: 16px;
+    height: 16px;
+    padding: 0 0 6px;
 }
 
 .articles-list {
