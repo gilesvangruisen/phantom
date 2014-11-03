@@ -38,17 +38,16 @@ div.container {
 
 .main-header .blog-title {
     display: block;
-    height: 28px;
-    line-height: 28px;
-    font-size: 28px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
     font-family: "le-monde-courrier-std-2";
     font-weight: 700;
-    color: rgb(36, 36, 36);
     margin: 0 auto 14px;
 }
 
 .main-header .blog-title a {
-    color: rgb(145, 145, 145);
+    color: rgb(36, 36, 36);
 }
 
 .main-header .blog-description {
@@ -56,9 +55,8 @@ div.container {
     height: 16px;
     line-height: 16px;
     font-size: 16px;
-    font-family: "le-monde-courrier-std-2";
     font-weight: 400;
-    color: #aeaeae;
+    color: rgb(145, 145, 145);
 }
 
 h2.section-header {
