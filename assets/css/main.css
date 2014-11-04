@@ -153,8 +153,26 @@ h2.section-header {
 }
 
 .post img {
-    width: 100%
-    padding: 0 0 18px;
+    width: 100%;
+}
+
+.post pre {
+    padding-bottom: 18px;
+}
+
+.post ul, .post ol {
+    padding: 4px 12px 0;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.post ul {
+    list-style: disc;
+}
+
+.post li {
+
 }
 
 .main-footer {
