@@ -179,6 +179,12 @@ h2.section-header {
     padding-bottom: 4px;
 }
 
+section.share {
+    display: block;
+    height: 42px;
+    margin-bottom: 18px;
+}
+
 section.share a {
     display: block;
     width: 42px;
