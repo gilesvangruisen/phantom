@@ -25,6 +25,7 @@ body {
 div.container {
     display: block;
     width: 560px;
+    padding: 20px 0;
     margin: 50px auto 20px;
 }
 
@@ -116,7 +117,6 @@ h2.section-header {
     margin-bottom: 16px;
     font-size: 32px;
     height: 32px;
-    /*font-family: "Open Sans";*/
 }
 
 .post p {
@@ -148,7 +148,10 @@ h2.section-header {
     font-size: 18px;
 }
 
-
+.post img {
+    width: 100%
+    padding: 0 0 18px;
+}
 
 .main-footer {
     display: block;
