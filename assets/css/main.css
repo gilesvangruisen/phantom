@@ -202,14 +202,17 @@ section.share a.icon-google-plus {
 @media (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi) {
     section.share a.icon-twitter {
         background: url(../img/twitter@2x.png) center center no-repeat;
+        background-size: 100% 100%;
     }
 
     section.share a.icon-facebook {
         background: url(../img/facebook@2x.png) center center no-repeat;
+        background-size: 100% 100%;
     }
 
     section.share a.icon-google-plus {
         background: url(../img/google@2x.png) center center no-repeat;
+        background-size: 100% 100%;
     }
 
 }
