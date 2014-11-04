@@ -168,10 +168,49 @@ h2.section-header {
 }
 
 .post ul {
-    list-style: disc;
+    list-style-type: disc;
+}
+
+.post ol {
+    list-style-type: decimal;
 }
 
 .post li {
+    padding-bottom: 4px;
+}
+
+section.share a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+section.share a.icon-twitter {
+    background: url(../img/twitter.png) center center no-repeat;
+}
+
+section.share a.icon-facebook {
+    background: url(../img/facebook.png) center center no-repeat;
+}
+
+section.share a.icon-google-plus {
+    background: url(../img/google.png) center center no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),  (min-resolution: 192dpi) {
+    section.share a.icon-twitter {
+        background: url(../img/twitter@2x.png) center center no-repeat;
+    }
+
+    section.share a.icon-facebook {
+        background: url(../img/facebook@2x.png) center center no-repeat;
+    }
+
+    section.share a.icon-google-plus {
+        background: url(../img/google@2x.png) center center no-repeat;
+    }
 
 }
 
