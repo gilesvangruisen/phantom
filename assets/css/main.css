@@ -74,7 +74,6 @@ h2.section-header {
 
 .articles-list .post {
     display: block;
-    overflow: hidden;
     border-top: 1px solid #ddd;
     padding: 14px 0 12px;
 }
@@ -89,6 +88,7 @@ h2.section-header {
     border: 1px solid #ddd;
     border-width: 1px 0 1px 0;
     padding: 18px 0 18px;
+    overflow: hidden;g
 }
 
 .post .post-date {
