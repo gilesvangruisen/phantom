@@ -24,7 +24,7 @@ body {
 
 div.container {
     display: block;
-    width: 600px;
+    width: 640px;
     padding: 0 20px;
     margin: 50px auto 20px;
 }
@@ -129,8 +129,16 @@ h2.section-header {
     line-height: 21px;
     font-weight: 300;
     color: rgb(71, 71, 71);
-    line-height: 24px;
+    line-height: 28px;
     padding-bottom: 1.2em;
+}
+
+.post p a {
+    color: #3878d9;
+}
+
+.post p a:hover {
+    border-bottom: 1px solid #3878d9;
 }
 
 .post {
@@ -138,10 +146,11 @@ h2.section-header {
 }
 
 .post h2, h3, h4 {
-    margin-bottom: 0.8em;
+    margin: 0.2em 0 0.6em;
 }
 
 .post h2 {
+    margin: 0;
     font-size: 24px;
 }
 
@@ -158,7 +167,11 @@ h2.section-header {
 }
 
 .post pre {
-    padding-bottom: 18px;
+    verflow: scroll;
+    width: 100%;
+    padding: 15px;
+    background: #eee;
+    margin: 0 0 18px;
 }
 
 .post ul, .post ol {
