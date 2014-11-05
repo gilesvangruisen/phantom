@@ -151,6 +151,9 @@ h2.section-header {
 
 .post h1.post-title {
     margin: 0;
+}
+
+.post h2 {
     font-size: 24px;
 }
 
