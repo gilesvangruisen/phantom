@@ -141,6 +141,11 @@ h2.section-header {
     border-bottom: 1px solid #3878d9;
 }
 
+.post p code {
+    background: #eee;
+    padding: 2px 4px;
+}
+
 .post {
     font-family: "bree-serif";
 }
