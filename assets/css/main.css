@@ -149,7 +149,7 @@ h2.section-header {
     margin: 0.2em 0 0.6em;
 }
 
-.post h2 {
+.post h1.post-title {
     margin: 0;
     font-size: 24px;
 }
