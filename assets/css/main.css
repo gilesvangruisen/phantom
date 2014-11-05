@@ -133,15 +133,15 @@ h2.section-header {
     padding-bottom: 1.2em;
 }
 
-.post p a {
+.post a {
     color: #3878d9;
 }
 
-.post p a:hover {
+.post a:hover {
     border-bottom: 1px solid #3878d9;
 }
 
-.post p code {
+.post code {
     background: #eee;
     padding: 2px 4px;
 }
