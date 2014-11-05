@@ -137,7 +137,7 @@ h2.section-header {
     color: #3878d9;
 }
 
-.post a:hover {
+.post p a:hover, .post li a:hover {
     border-bottom: 1px solid #3878d9;
 }
 
