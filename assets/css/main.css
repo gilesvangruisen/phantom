@@ -88,7 +88,7 @@ h2.section-header {
     border: 1px solid #ddd;
     border-width: 1px 0 1px 0;
     padding: 18px 0 18px;
-    overflow: hidden;g
+    overflow: hidden;
 }
 
 .post .post-date {
@@ -171,7 +171,7 @@ h2.section-header {
 }
 
 .post pre {
-    verflow: scroll;
+    overflow: scroll;
     width: 100%;
     padding: 15px;
     background: #eee;
