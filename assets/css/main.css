@@ -179,8 +179,8 @@ h2.section-header {
 }
 
 .post ul, .post ol {
-    padding: 4px 12px 0;
-    margin-left: 10px;
+    padding: 4px 16px 0;
+    margin-left: 20px;
     font-weight: 300;
     font-size: 16px;
 }
@@ -194,6 +194,8 @@ h2.section-header {
 }
 
 .post li {
+    line-height: 28px;
+
     padding-bottom: 4px;
 }
 
