@@ -198,6 +198,13 @@ h2.section-header {
     padding-bottom: 4px;
 }
 
+.post hr {
+    display: block;
+    background: #ddd;
+    height: 1px;
+    margin: 18px 0;
+}
+
 section.share {
     display: block;
     height: 42px;
