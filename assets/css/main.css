@@ -222,6 +222,11 @@ section.post-content {
     padding: 0 24px 4px 0;
 }
 
+.post table td a {
+    color: rgb(71, 71, 71);
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
 .post table.schedule .booked {
     font-style: italic;
     color: rgb(184, 184, 184);
