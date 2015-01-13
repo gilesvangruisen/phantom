@@ -204,8 +204,28 @@ h2.section-header {
     margin: 18px 0;
 }
 
-strong {
+.post strong {
     font-weight: 500;
+}
+
+.post table {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(71, 71, 71);
+}
+
+.post table tr {
+    padding: 0 6px 10px 0;
+}
+
+.post table.schedule .booked {
+    font-style: italic;
+    color: rgb(71, 71, 71);
+}
+
+.post table.schedule .available {
+    font-weight: 500;
+    color: rgb(184, 184, 184);
 }
 
 section.share {
