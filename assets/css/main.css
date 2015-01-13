@@ -228,6 +228,7 @@ section.post-content {
 }
 
 .post table.schedule .free {
+    font-style: italic;
     font-weight: 500;
     color: rgb(71, 71, 71);
 }
