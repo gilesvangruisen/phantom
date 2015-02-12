@@ -279,8 +279,11 @@ section.share a.icon-google-plus {
 }
 
 @media screen and (max-width: 420px) {
-    .post-title {
+    .post .post-title {
         font-size: 21px;
+    }
+
+    .post .post-title a {
         line-height: 24px;
     }
 
