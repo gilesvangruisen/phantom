@@ -111,17 +111,17 @@ section.post-content {
     padding-bottom: 12px;
 }
 
-.post .post-title {
-    margin-bottom: 16px;
-    font-size: 28px;
+.post h2.post-title {
+    margin: 0;
+    font-size: 21px;
     padding-bottom: 2px;
     font-family: "bree-serif";
 }
 
-.post .post-title a {
+.post h2.post-title a {
     color: rgb(36, 36, 36);
     font-weight: 500;
-    line-height: 28px;
+    line-height: 21px;
 }
 
 .post p {
@@ -155,15 +155,15 @@ section.post-content {
 }
 
 .post h2 {
-    font-size: 24px;
-}
-
-.post h3 {
     font-size: 21px;
 }
 
-.post h4 {
+.post h3 {
     font-size: 18px;
+}
+
+.post h4 {
+    font-size: 16px;
 }
 
 .post img {
@@ -275,32 +275,6 @@ section.share a.icon-google-plus {
     section.share a.icon-google-plus {
         background: url(../img/google@2x.png) center center no-repeat;
         background-size: 100% 100%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .post .post-title {
-        font-size: 21px;
-    }
-
-    .post .post-title a {
-        line-height: 24px;
-    }
-
-    .post h2, h3, h4 {
-        margin: 0.2em 0 0.6em;
-    }
-
-    .post h2 {
-        font-size: 21px;
-    }
-
-    .post h3 {
-        font-size: 18px;
-    }
-
-    .post h4 {
-        font-size: 16px;
     }
 }
 
