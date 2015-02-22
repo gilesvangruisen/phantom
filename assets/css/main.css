@@ -124,6 +124,10 @@ section.post-content {
     line-height: 21px;
 }
 
+.post h1.post-title a {
+    margin-bottom: 16px;
+}
+
 .post p {
     font-size: 16px;
     line-height: 21px;
