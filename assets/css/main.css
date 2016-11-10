@@ -15,7 +15,7 @@ html {
 
 body {
     display: block;
-    font-family: "Open Sans", "Helvetica", sans-serif;
+    font-family: "jaf-domus", "Helvetica", sans-serif;
     font-size: 12px;
     line-height: 20px;
     background: #fff;
@@ -41,7 +41,7 @@ div.container {
     height: 32px;
     line-height: 32px;
     font-size: 32px;
-    font-family: "bree-serif";
+    font-family: "skolar-sans-latin";
     font-weight: 500;
     margin: 0 auto 14px;
 }
@@ -115,7 +115,7 @@ section.post-content {
     margin: 0;
     font-size: 21px;
     padding-bottom: 2px;
-    font-family: "bree-serif";
+    font-family: "skolar-sans-latin";
 }
 
 .post h1.post-title {
@@ -151,7 +151,7 @@ section.post-content {
 }
 
 .post {
-    font-family: "bree-serif";
+    font-family: "jaf-domus";
 }
 
 .post h2, h3, h4 {
