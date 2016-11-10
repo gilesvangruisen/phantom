@@ -18,7 +18,7 @@ body {
     font-family: "jaf-domus", "Helvetica", sans-serif;
     font-size: 12px;
     line-height: 20px;
-    background: #e2e2e4;
+    background: #efeff0;
     color: #383838;
 }
 
@@ -74,12 +74,10 @@ section.post-content {
 .articles-list {
     display: block;
     margin: 20px 0;
-    border-bottom: 1px solid #ddd;
 }
 
 .articles-list .post {
     display: block;
-    border-top: 1px solid #ddd;
     padding: 14px 0 12px;
 }
 
@@ -90,8 +88,6 @@ section.post-content {
 .single-post {
     display: block;
     margin: 20px 0;
-    border: 1px solid #ddd;
-    border-width: 1px 0 1px 0;
     padding: 18px 0 18px;
     overflow: hidden;
 }
