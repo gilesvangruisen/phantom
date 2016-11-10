@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{! Document Settings }}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    {{! Page Meta }}
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    {{! Styles and Fonts }}
-
-    {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
-
-    <script src="//use.typekit.net/kza2jjo.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
 
     <link rel="shortcut icon" href="{{asset "img/icon.png"}}">
     <link rel="stylesheet" type="text/css" href="{{asset "css/reset.css"}}" />
@@ -30,23 +22,17 @@
             <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         </header>
 
-        {{! Everything else gets inserted here }}
         {{{body}}}
 
         <footer class="main-footer">
-            <section class="links">
-                <a href="{{@blog.url}}">Articles</a>
-                <a href="http://gilesvangruisen.com/consulting">Consulting</a>
-                <a href="http://gilesvangruisen.com/projects">Projects</a>
-                <a href="http://github.com/gilesvangruisen/">GitHub</a>
-                <a href="http://twitter.com/gilesvangruisen/">Twitter</a>
-            </section>
             <section class="footer-copyright">&copy; {{@blog.title}} {{date format="YYYY"}}</section>
         </footer>
     </div>
 
     {{ghost_foot}}
 
+    <script src="//use.typekit.net/kza2jjo.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
