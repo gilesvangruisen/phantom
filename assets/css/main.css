@@ -26,7 +26,7 @@ div.container {
     display: block;
     max-width: 840px;
     min-width: 320px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 50px auto 20px;
 }
 
@@ -109,24 +109,31 @@ section.post-content {
 
 .post .date-and-title {
     max-width: 640px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .post .post-title {
-    margin: 0;
-    font-size: 21px;
-    padding-bottom: 2px;
+    font-size: 17px;
     font-family: "skolar-sans-latin";
-}
-
-.post h1.post-title {
-    margin-bottom: 16px;
 }
 
 .post .post-title a {
     color: rgb(36, 36, 36);
     font-weight: 500;
-    line-height: 21px;
 }
+
+/*@media only screen and (max-width: 420px) {
+    .post .date-and-title {
+        flex-direction: column;
+    }
+
+    .post .post-title {
+        flex: 1;
+    }
+}*/
 
 .post p {
     font-size: 16px;
@@ -174,7 +181,11 @@ section.post-content {
     width: 100%;
 }
 
-.post img.featured-image {
+.post .featured-image {
+    margin-bottom: 10px;
+}
+
+.post .featured-image img {
     border-radius: 3px;
 }
 
