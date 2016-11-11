@@ -98,7 +98,6 @@ section.post-content {
     line-height: 14px;
     font-weight: 300;
     color: rgb(107, 107, 107);
-    text-align: left;
 }
 
 .post .date-and-title {
@@ -108,7 +107,6 @@ section.post-content {
 
 .post .post-title {
     margin-bottom: 10px;
-    text-align: left;
 }
 
 .post .post-title a {
