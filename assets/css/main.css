@@ -78,7 +78,7 @@ section.post-content {
 
 .articles-list .post {
     display: block;
-    padding: 14px 0 12px;
+    padding: 18px 0;
 }
 
 .articles-list .post h2 {
@@ -88,7 +88,7 @@ section.post-content {
 .single-post {
     display: block;
     margin: 20px 0;
-    padding: 18px 0 18px;
+    padding: 20px 0;
     overflow: hidden;
 }
 
