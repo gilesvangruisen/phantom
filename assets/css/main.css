@@ -103,7 +103,7 @@ section.post-content {
 
 .post .date-and-title {
     max-width: 400px;
-    margin: auto;
+    margin: 6px auto;
 }
 
 .post .post-title {
@@ -164,10 +164,6 @@ section.post-content {
 
 .post img {
     width: 100%;
-}
-
-.post .featured-image {
-    margin-bottom: 20px;
 }
 
 .post .featured-image img {
