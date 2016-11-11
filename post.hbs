@@ -4,9 +4,14 @@
 {{#post}}
     <section class="post-content">
         <img src="{{image}}" class="featured-image" alt="{{title}}" />
-        <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">Posted {{date format="MMMM D, YYYY"}}</time>
-        {{content}}
+        <div class="date-and-title">
+          <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">
+            {{date format="MMMM D, YYYY"}}
+          </time>
+          <h2 class="post-title">
+            <a href="{{url}}">{{{title}}}</a>
+          </h2>
+        </div>
     </section>
     <footer class="post-footer">
         <section class="share">
