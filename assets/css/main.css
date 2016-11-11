@@ -103,17 +103,12 @@ section.post-content {
 }
 
 .single-post .post-date {
-    height: 28px;
     text-align: left;
-    padding-bottom: 12px;
 }
 
 .post .date-and-title {
     max-width: 400px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
 }
 
 .post .post-title {
