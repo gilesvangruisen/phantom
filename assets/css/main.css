@@ -126,13 +126,14 @@ section.post-content {
     font-family: "skolar-sans-latin";
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 550px) {
     .post .date-and-title {
         flex-direction: column-reverse;
     }
 
-    .post .post-title {
-        margin: 0 0 10px;
+    .post .date-and-title h2.post-title {
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 }
 
