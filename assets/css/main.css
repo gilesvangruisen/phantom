@@ -73,7 +73,7 @@ section.post-content {
 
 .articles-list {
     display: block;
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .articles-list .post {
@@ -277,6 +277,18 @@ section.share a.icon-google-plus {
         background: url(../img/google@2x.png) center center no-repeat;
         background-size: 100% 100%;
     }
+}
+
+nav.pagination {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+nav.pagination a {
+    color: #383838;
+    border-bottom: 1px solid #383838;
+    margin: 0 6px;
 }
 
 .main-footer {
