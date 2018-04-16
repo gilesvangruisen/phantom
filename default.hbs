@@ -1,52 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{! Document Settings }}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    {{! Page Meta }}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    {{! Styles and Fonts }}
-
-    {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
-
-    <script src="//use.typekit.net/ify3pak.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
 
     <link rel="shortcut icon" href="{{asset "img/icon.png"}}">
     <link rel="stylesheet" type="text/css" href="{{asset "css/reset.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+
+    <script src="//use.typekit.net/kza2jjo.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body class="{{body_class}}">
 
     <div class="container">
         <header class="main-header">
             <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-            <!--p class="blog-description">{{@blog.description}}</p-->
-            <section class="links">
-                <a href="{{@blog.url}}">Articles</a>
-                <a href="http://gilesvangruisen.com/consulting">Consulting</a>
-                <a href="http://gilesvangruisen.com/projects">Projects</a>
-            </section>
         </header>
 
-        {{! Everything else gets inserted here }}
         {{{body}}}
 
         <footer class="main-footer">
-            <section class="links">
-                <a href="{{@blog.url}}">Articles</a>
-                <a href="http://gilesvangruisen.com/consulting">Consulting</a>
-                <a href="http://gilesvangruisen.com/projects">Projects</a>
-                <a href="http://github.com/gilesvangruisen/">GitHub</a>
-                <a href="http://twitter.com/gilesvangruisen/">Twitter</a>
-            </section>
             <section class="footer-copyright">&copy; {{@blog.title}} {{date format="YYYY"}}</section>
         </footer>
     </div>
@@ -58,7 +37,7 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-10445071-1', 'auto');
+      ga('create', 'UA-10445071-7', 'auto');
       ga('send', 'pageview');
     </script>
 </body>

@@ -1,7 +1,5 @@
-{{!< default}}
 
-<article class="single-post {{post_class}}">
-{{#post}}
+<article class="{{post_class}}">
   {{#if feature_image}}
     <a href="{{img_url feature_image}}" class="featured-image">
       <img src="{{img_url feature_image}}" alt="{{title}}" />
@@ -15,5 +13,4 @@
       <a href="{{url}}">{{{title}}}</a>
     </h2>
   </div>
-{{/post}}
 </article>
